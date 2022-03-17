@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body onload="render()">
+    <div class="header">
+      <img class="header-img" onclick="reload_page()" src="img/note.png" />
+      <div class="header-text" onclick="reload_page()">Notes</div>
+      <div class="version" onclick="reload_page()">Preview</div>
+    </div>
+    <div class="main">
+      <div class="navigation">
+        <div class="nav-item" id="bulb" onclick="clickBulb()">
+          <img class="icons" src="img/lightbulb.png" />
+          <div class="nav-text">Notes</div>
+        </div>
+        <div class="nav-item" id="trash" onclick="clickTrash()">
+          <img class="icons" src="img/trash.png" />
+          <div class="nav-text">Trash</div>
+        </div>
+      </div>
+      <div id="container" class="container"></div>
+    </div>
+  </body>
+</html>
