@@ -1,0 +1,13 @@
+{
+  "workbench.colorTheme": "Gitpod Dark",
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "gitpod.openInStable.neverPrompt": true,
+}
